@@ -1,0 +1,8 @@
+ru\ivmiit\fake\FakeStorage.class
+ru\ivmiit\repositories\UsersRepositoryInMemoryImpl.class
+ru\ivmiit\servlets\SignUpServlet.class
+ru\ivmiit\servlets\HomeServlet.class
+ru\ivmiit\servlets\LoginServlet.class
+ru\ivmiit\repositories\UsersRepository.class
+ru\ivmiit\filters\AuthFilter.class
+ru\ivmiit\models\User.class
