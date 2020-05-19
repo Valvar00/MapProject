@@ -7,17 +7,23 @@
 </head>
 <body>
 	<div class="hero">
-    <div class="form-box">
+    <div class="form-box1">
     	<h1>Your Profile</h1>
-        <form id="login" class="input-group" action="/login_main" method="post">
+        <form id="login" class="input-group1 grp4" action="/login_main" method="post">
 
-   
-            <input type="text" class="input-field" placeholder="Username" required name="name">
-            <input type="text" class="input-field" placeholder="Email" required name="Email">
-            <input type="password" class="input-field" placeholder="Enter Password" required name="password">
-            <input type="text" class="input-field" placeholder="University">
-            <input type="text" class="input-field" placeholder="City" >
-            <input type="text" class="input-field" placeholder="State" >
+   					<label>Username</label>
+            <input type="text" class="input-field"  required name="name">
+            <label>Email</label>
+            <p class='pad'>example@mail.com</p>
+            <label>Password</label>
+            <p class='pad'>********</p>
+            <button type="submit" class="submit-btn">Change Email or Password</button>
+            <label class='underbut'>University</label>
+            <input type="text" class="input-field" >
+            <label>City</label>
+            <input type="text" class="input-field" >
+            <label>State</label>
+            <input type="text" class="input-field" >
 						<button type="submit" class="submit-btn">Save Changes</button>
         </form>
     </div>
