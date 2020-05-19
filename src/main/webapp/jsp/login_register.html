@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+<body>
+<div class="hero">
+    <div class="form-box">
+        <h1 name="title"></h1>
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+        </div>
+        <div class="social-icons">
+            <img src="../css/img/fb.png">
+            <img src="../css/img/tw.png">
+            <img src="../css/img/gp.png">
+        </div>
+        <form id="login" class="input-group" action="/login_main" method="post">
+
+   
+            <input type="text" class="input-field" placeholder="Username" required name="name">
+            <input type="password" class="input-field" placeholder="Enter Password" required name="password">
+            <input type="checkbox" class="check-box" name="RemPass" ><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <form id="register" class="input-group" action="/signUp_main" method="post">
+            <input type="text" class="input-field" placeholder="Username" required name="name">
+            <input type="email" class="input-field" placeholder="Email" required name="email">
+            <input type="password" class="input-field" placeholder="Enter Password" required name="password">
+            <input type="checkbox" class="check-box"><span>I agree to something</span>
+            <button type="submit" class="submit-btn">Register</button>
+        </form>
+    </div>
+
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>
