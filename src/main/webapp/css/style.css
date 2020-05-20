@@ -26,14 +26,14 @@ h1 {
 	padding: 5px;
 	overflow: hidden;
 }
-.form-box1{
-	width:380px;
+.box2 {
+	height: 400px;
+}
+.box1{
 	height: 600px;
-	position: relative;
-	margin: 6% auto;
-	background: #fff;
-	padding: 5px;
-	overflow: hidden;
+}
+.box3{
+	height: 300px;
 }
 .button-box{
 	width:220px;
@@ -150,8 +150,15 @@ label{
 	padding: 10px;
 	margin: 5px;
 	margin-left: -10px;
+	margin-bottom:-5px;
 }
 .underbut{
 	display: block;
 	margin-top: 15px;
+}
+a {
+	display: block;
+	font-size: 14px;
+	text-decoration: none;
+	color: #639fff;
 }
